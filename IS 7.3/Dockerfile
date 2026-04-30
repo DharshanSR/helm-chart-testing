@@ -1,4 +1,4 @@
-# Use your personal WSO2 IS base image from Docker Hub that we pushed in Step 1
+# Use a custom WSO2 IS base image published to Docker Hub
 FROM jhon348/wso2is-base:7.3.0-rc1
 
 # Define the MySQL connector version
