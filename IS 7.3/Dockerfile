@@ -2,7 +2,7 @@
 FROM jhon348/wso2is-base:7.3.0-rc1
 
 # Define the MySQL connector version
-# (Using 9.7.0 to get the latest, which uses the new mysql-connector-j naming)
+# Use a version published under the newer mysql-connector-j artifact naming used below
 ARG MYSQL_CONNECTOR_VERSION=9.7.0
 
 # Add MySQL JDBC connector to server home as a third-party library
